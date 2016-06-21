@@ -44,10 +44,8 @@
 		1B8354CD1CD78BB6002009C1 /* HTTPRedirectResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B8354A91CD78BB6002009C1 /* HTTPRedirectResponse.m */; };
 		1B8354CE1CD78BB6002009C1 /* WebSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B8354AA1CD78BB6002009C1 /* WebSocket.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1B8354CF1CD78BB6002009C1 /* WebSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B8354AB1CD78BB6002009C1 /* WebSocket.m */; };
-		1B8354E71CD78BCA002009C1 /* About.txt in Resources */ = {isa = PBXBuildFile; fileRef = 1B8354D21CD78BCA002009C1 /* About.txt */; };
 		1B8354E81CD78BCA002009C1 /* GCDAsyncSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B8354D31CD78BCA002009C1 /* GCDAsyncSocket.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1B8354E91CD78BCA002009C1 /* GCDAsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B8354D41CD78BCA002009C1 /* GCDAsyncSocket.m */; };
-		1B8354EA1CD78BCA002009C1 /* About.txt in Resources */ = {isa = PBXBuildFile; fileRef = 1B8354D61CD78BCA002009C1 /* About.txt */; };
 		1B8354EB1CD78BCA002009C1 /* DDAbstractDatabaseLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B8354D71CD78BCA002009C1 /* DDAbstractDatabaseLogger.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1B8354EC1CD78BCA002009C1 /* DDAbstractDatabaseLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B8354D81CD78BCA002009C1 /* DDAbstractDatabaseLogger.m */; };
 		1B8354ED1CD78BCA002009C1 /* DDASLLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B8354D91CD78BCA002009C1 /* DDASLLogger.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -62,7 +60,6 @@
 		1B8354F61CD78BCA002009C1 /* ContextFilterLogFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B8354E31CD78BCA002009C1 /* ContextFilterLogFormatter.m */; };
 		1B8354F71CD78BCA002009C1 /* DispatchQueueLogFormatter.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B8354E41CD78BCA002009C1 /* DispatchQueueLogFormatter.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1B8354F81CD78BCA002009C1 /* DispatchQueueLogFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B8354E51CD78BCA002009C1 /* DispatchQueueLogFormatter.m */; };
-		1B8354F91CD78BCA002009C1 /* README.txt in Resources */ = {isa = PBXBuildFile; fileRef = 1B8354E61CD78BCA002009C1 /* README.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -378,9 +375,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1B8354EA1CD78BCA002009C1 /* About.txt in Resources */,
-				1B8354F91CD78BCA002009C1 /* README.txt in Resources */,
-				1B8354E71CD78BCA002009C1 /* About.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -513,9 +507,11 @@
 		1B8354821CD78B8B002009C1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_WARN_UNREACHABLE_CODE = NO;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_WARN_ABOUT_DEPRECATED_FUNCTIONS = NO;
 				INFOPLIST_FILE = HTTPServerKit/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -528,9 +524,11 @@
 		1B8354831CD78B8B002009C1 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_WARN_UNREACHABLE_CODE = NO;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_WARN_ABOUT_DEPRECATED_FUNCTIONS = NO;
 				INFOPLIST_FILE = HTTPServerKit/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
