@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "71CFC0DE1DEFC877B0C5B9F98B971EBA2921D608",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "71CFC0DE1DEFC877B0C5B9F98B971EBA2921D608" : 0,
+    "BD62598649166BF80C0407159B3FD11833ACE8C9" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "F0CA15CF-7576-4194-B8DE-D212C9E6FF04",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "71CFC0DE1DEFC877B0C5B9F98B971EBA2921D608" : "CocoaHTTPServer\/",
+    "BD62598649166BF80C0407159B3FD11833ACE8C9" : ".."
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "HTTPServerKit",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Samples\/HTTPServerKit\/HTTPServerKit.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/martinhering\/CocoaHTTPServer.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "71CFC0DE1DEFC877B0C5B9F98B971EBA2921D608"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/dreipol\/CTRL.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "BD62598649166BF80C0407159B3FD11833ACE8C9"
+    }
+  ]
+}
